@@ -1,0 +1,60 @@
+//
+//  Paxpobox-prefix.pch
+//  Pakpobox
+//
+//  Created by 博兴 on 2017/2/24.
+//  Copyright © 2017年 bx. All rights reserved.
+//
+
+#ifndef Paxpobox_prefix_pch
+#define Paxpobox_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "PaxDataSave.h"
+#import "PaxConfigSetting.h"
+#import "PaxFontConfig.h"
+#import "PaxColorConfig.h"
+#import "PaxMainBaseNavController.h"
+#import "SGQRCode.h"
+#import "NSDateFormatter+Category.h"
+#import "PaxMacroDefinition.h"
+#import <Masonry/Masonry.h>
+//#import "PaxKeyBoardBecome.h"
+#import "PayPalMobile.h"
+
+#import "PaxBigTitleViewController.h"
+#import "PaxBaseSubViewController.h"
+#import "PaxBaseViewController.h"
+#import "PaxInternationalControl.h"
+#import "PaxLanuage.h"
+#import "CZAdditions.h"
+#import "PaxHUD.h"
+#import "ZCChinaLocation.h"
+#import "TQLocationConverter.h"
+#import "PaxSegmentNavController.h"
+#import "LXLNetWorkTool.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <IQKeyboardManager.h>
+#import <GoogleMaps/GoogleMaps.h>
+#import <UIImageView+WebCache.h>
+#import <SVProgressHUD.h>
+//#import <Realm.h>
+#import <SCLAlertView.h>
+#import <SCLAlertViewStyleKit.h>
+#import <SCLAlertViewResponder.h>
+#import <THCalendarDatePicker/THDatePickerViewController.h>
+#import <LCAnimatedPageControl.h>
+#import <SDCycleScrollView.h>
+#import <MJExtension.h>
+#import <MJRefresh.h>
+#import <GooglePlaces/GooglePlaces.h>
+#import <GooglePlacePicker/GooglePlacePicker.h>
+#import <NSDate+TimeAgo.h>
+#ifdef DEBUG
+#define PaxLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )//分别是方法地址，文件名，在文件的第几行，自定义输出内容
+#else
+#define PaxLog( s, ... )
+#endif
+#endif /* Paxpobox_prefix_pch */

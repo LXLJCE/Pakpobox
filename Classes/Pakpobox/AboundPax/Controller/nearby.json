@@ -1,0 +1,53 @@
+{
+"page": 0,
+"maxCount": 10,
+"totalPage": 16,
+"totalCount": 152,
+"resultList": [
+{
+"id": "2c9180ac538790900153889fffd3000e",
+"name": "磅洗",
+"address": "海岸时代公寓东B",
+"latitude": 22.569349,
+"longitude": 113.88071,
+"distance": 0
+},
+{
+"id": "080467703a7311e5aeea6c40088b8482",
+"name": "WIFIBB",
+"address": "海岸时代公寓"
+},
+{
+"id": "2c91800a525e209f015261ec8d410052",
+"name": "City Walk Lippo weqweqweqwe"
+},
+{
+"id": "2c91800b51ce4a070151d1f66ef0001d",
+"name": "wsd"
+},
+{
+"id": "2c91800b51ce4a070151d1f8bcc40022",
+"name": "机场测试柜bbb"
+},
+{
+"id": "2c91800d5268359c01526c4d8bcd000e",
+"name": "victor测试柜"
+},
+{
+"id": "2c91800e51d398c30151d6ed9250000b",
+"name": "演示"
+},
+{
+"id": "2c91800e51d398c30151d715fb370021",
+"name": "石岩测试派宝箱2"
+},
+{
+"id": "2c91800f52783ecc015282835a3c004b",
+"name": "123q"
+},
+{
+"id": "2c91800f52e831080152e8ef7463000a",
+"name": "chengchen2"
+}
+]
+}

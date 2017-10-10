@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12118"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaxMapViewController">
+            <connections>
+                <outlet property="contentView" destination="xFV-Pn-x4G" id="4WS-zY-rH9"/>
+                <outlet property="view" destination="iN0-l3-epB" id="TOC-TY-RJk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFV-Pn-x4G">
+                    <rect key="frame" x="0.0" y="80" width="375" height="587"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xFV-Pn-x4G" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="LXs-LU-jj5"/>
+                <constraint firstAttribute="trailing" secondItem="xFV-Pn-x4G" secondAttribute="trailing" id="YlG-nR-3Ut"/>
+                <constraint firstAttribute="bottom" secondItem="xFV-Pn-x4G" secondAttribute="bottom" id="h29-78-0Ro"/>
+                <constraint firstItem="xFV-Pn-x4G" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lgR-EF-YRr"/>
+            </constraints>
+            <point key="canvasLocation" x="158" y="-133"/>
+        </view>
+    </objects>
+</document>
